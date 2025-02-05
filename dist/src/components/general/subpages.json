@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_general_subpages",
+    "info": {
+        "displayName": "subpages",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "sub_page_name": {
+            "type": "string",
+            "required": true
+        },
+        "sub_page_path": {
+            "type": "string",
+            "default": "/",
+            "required": true
+        },
+        "sub_page_section": {
+            "type": "component",
+            "repeatable": true,
+            "component": "general.page-section"
+        }
+    }
+}

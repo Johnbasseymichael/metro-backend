@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_general_nav_dropdowns",
+    "info": {
+        "displayName": "nav_dropdown"
+    },
+    "options": {},
+    "attributes": {
+        "subpage_name": {
+            "type": "string"
+        },
+        "subpage_path": {
+            "type": "string"
+        }
+    }
+}

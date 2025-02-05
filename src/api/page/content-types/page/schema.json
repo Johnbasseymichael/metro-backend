@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_name": {
+      "type": "string",
+      "required": true
+    },
+    "page_path": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "sub_page": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.subpages"
+    },
+    "page_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.page-section"
+    }
+  }
+}

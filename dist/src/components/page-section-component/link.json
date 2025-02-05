@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_page_section_component_links",
+    "info": {
+        "displayName": "link",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "link": {
+            "type": "text",
+            "required": true,
+            "default": "https://"
+        }
+    }
+}

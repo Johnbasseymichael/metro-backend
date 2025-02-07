@@ -18,7 +18,7 @@ export interface GeneralPageSection extends Struct.ComponentSchema {
     displayName: 'sub_page_section';
   };
   attributes: {
-    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    heading: Schema.Attribute.String;
     link: Schema.Attribute.Component<'page-section-component.link', true>;
     list: Schema.Attribute.Blocks;
     paragraph: Schema.Attribute.Blocks;

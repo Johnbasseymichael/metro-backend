@@ -31,6 +31,14 @@
         },
         "list": {
             "type": "blocks"
+        },
+        "detailed_image": {
+            "allowedTypes": [
+                "files",
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
         }
     }
 }

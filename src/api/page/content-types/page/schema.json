@@ -30,6 +30,11 @@
       "type": "component",
       "repeatable": true,
       "component": "general.page-section"
+    },
+    "page_number": {
+      "unique": true,
+      "required": true,
+      "type": "integer"
     }
   }
 }

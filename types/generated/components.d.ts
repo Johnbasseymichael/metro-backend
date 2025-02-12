@@ -18,6 +18,7 @@ export interface GeneralPageSection extends Struct.ComponentSchema {
     displayName: 'sub_page_section';
   };
   attributes: {
+    detailed_image: Schema.Attribute.Media<'files' | 'images'>;
     heading: Schema.Attribute.String;
     link: Schema.Attribute.Component<'page-section-component.link', true>;
     list: Schema.Attribute.Blocks;
